@@ -9,45 +9,47 @@
 </head>
 
 <body>
-    <h1>CONVERSOR DE IMAGENS EM PDF</h1>
-    
-    <section class="info-section">
-        <h2>Como converter imagens para PDF grátis?</h2>
-        <p>Transformar suas fotos em documentos PDF profissionais nunca foi tão fácil. Converta JPG e PNG em segundos.</p>
+    <div class="container-geral">
+
+        <h1>CONVERSOR DE IMAGENS EM PDF</h1>
         
-        <h3>Passo a Passo:</h3>
-        <ol class="lista-passos">
-            <li>Clique no botão <strong>"Escolher Arquivo"</strong>.</li>
-            <li>Selecione a imagem do seu dispositivo.</li>
-            <li>Confira a pré-visualização.</li>
-            <li>Clique em <strong>"Baixar PDF"</strong>.</li>
-        </ol>
+        <section class="info-section">
+            <h2>Como converter imagens para PDF grátis?</h2>
+            <p>Transformar suas fotos em documentos PDF profissionais nunca foi tão fácil. Converta JPG e PNG em segundos.</p>
+            
+            <h3>Passo a Passo:</h3>
+            <ol class="lista-passos">
+                <li>Clique no botão <strong>"Escolher Arquivo"</strong>.</li>
+                <li>Selecione a imagem do seu dispositivo.</li>
+                <li>Confira a pré-visualização.</li>
+                <li>Clique em <strong>"Baixar PDF"</strong>.</li>
+            </ol>
 
-        <h3>Por que usar nosso conversor?</h3>
-        <ul class="lista-beneficios">
-            <li><strong>Privacidade Total:</strong> Tudo é feito no seu navegador.</li>
-            <li><strong>Rápido e Leve:</strong> Sem instalações.</li>
-            <li><strong>Mobile Friendly:</strong> Funciona no celular.</li>
-        </ul>
-    </section>
-    
-    <div class="controles">
-        <label for="input-arquivo" class="botao-upload">📁 Escolher Arquivo</label>
-        <input type="file" id="input-arquivo" accept="image/*">
-    </div>
+            <h3>Por que usar nosso conversor?</h3>
+            <ul class="lista-beneficios">
+                <li><strong>Privacidade Total:</strong> Tudo é feito no seu navegador.</li>
+                <li><strong>Rápido e Leve:</strong> Sem instalações.</li>
+                <li><strong>Mobile Friendly:</strong> Funciona no celular.</li>
+            </ul>
+        </section>
+        
+        <div class="controles">
+            <label for="input-arquivo" class="botao-upload">📁 Escolher Arquivo</label>
+            <input type="file" id="input-arquivo" accept="image/*">
+        </div>
 
-    <div id="conteudo-pdf"> 
-        <p id="texto-instrucao">A prévia da sua imagem aparecerá aqui...</p>
-        <img id="imagem-preview" alt="Prévia da imagem">
-    </div>
+        <div id="conteudo-pdf"> 
+            <p id="texto-instrucao">A prévia da sua imagem aparecerá aqui...</p>
+            <img id="imagem-preview" alt="Prévia da imagem">
+        </div>
 
-    <button id="botao_converter">Baixar PDF</button>
+        <button id="botao_converter">Baixar PDF</button>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+        <footer>
+            &copy; 2025 Conversor PDF Online - Todos os direitos reservados.
+        </footer>
+
+    </div> <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script src="script.js" defer></script>
-
-    <footer>
-        &copy; 2025 Conversor PDF Online - Todos os direitos reservados.
-    </footer>
 </body>
 </html>
