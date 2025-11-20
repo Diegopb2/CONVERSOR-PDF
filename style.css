@@ -1,15 +1,24 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f7f6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
     margin: 0;
     color: #333;
 }
 
-h1 { color: #2c3e50; text-align: center; }
+h1 { 
+    color: #2c3e50; 
+    text-align: center; 
+}
+
+
+.container-geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh; 
+}
+
 
 .info-section {
     max-width: 800px;
@@ -25,6 +34,7 @@ h1 { color: #2c3e50; text-align: center; }
 .info-section p, .lista-passos, .lista-beneficios { color: #555; }
 .lista-passos, .lista-beneficios { margin-left: 20px; }
 
+
 .controles { margin-bottom: 20px; }
 
 #input-arquivo { display: none; }
@@ -39,6 +49,7 @@ h1 { color: #2c3e50; text-align: center; }
     transition: background 0.3s;
     display: inline-block;
 }
+
 .botao-upload:hover { background-color: #5b4bc4; }
 
 
@@ -50,23 +61,25 @@ h1 { color: #2c3e50; text-align: center; }
     padding: 20px; 
     box-shadow: 0 0 15px rgba(0,0,0,0.15);
     margin-bottom: 20px;
-    display: block;
-    flex-direction: column;
-    align-items: center;     
+    
+    
+    display: block;       
     text-align: center;   
-    overflow: visible;
-    justify-content: center; 
+    overflow: visible;    
 }
 
 #imagem-preview {
     max-width: 100%;
     height: auto;
-    display: none;
+    display: none;        
     margin-top: 10px; 
-    display: inline-block;
 }
 
-#texto-instrucao { color: #999; font-style: italic; }
+#texto-instrucao { 
+    color: #999; 
+    font-style: italic; 
+}
+
 
 #botao_converter {
     padding: 15px 40px;
