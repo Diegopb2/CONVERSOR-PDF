@@ -6,53 +6,48 @@
     <title>Conversor Inteligente PDF</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📄</text></svg>">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 
 <body>
     <h1>CONVERSOR DE IMAGENS EM PDF</h1>
-    <section style="max-width: 800px; margin: 40px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-align: left;">
-    <h2 style="color: #333;">Como converter imagens para PDF grátis?</h2>
-    <p style="line-height: 1.6; color: #666;">
-        Transformar suas fotos em documentos PDF profissionais nunca foi tão fácil. Com nossa ferramenta online, você pode converter arquivos JPG, PNG e outros formatos de imagem em um arquivo PDF pronto para impressão ou envio por e-mail.
-    </p>
     
-    <h3 style="color: #333; margin-top: 20px;">Passo a Passo:</h3>
-    <ol style="line-height: 1.6; color: #666; margin-left: 20px;">
-        <li>Clique no botão <strong>"Escolher Arquivo"</strong> acima.</li>
-        <li>Selecione a imagem do seu computador ou celular.</li>
-        <li>Confira a pré-visualização na tela.</li>
-        <li>Clique em <strong>"Baixar PDF"</strong> para salvar o arquivo instantaneamente.</li>
-    </ol>
+    <section class="info-section">
+        <h2>Como converter imagens para PDF grátis?</h2>
+        <p>Transformar suas fotos em documentos PDF profissionais nunca foi tão fácil. Converta JPG e PNG em segundos.</p>
+        
+        <h3>Passo a Passo:</h3>
+        <ol class="lista-passos">
+            <li>Clique no botão <strong>"Escolher Arquivo"</strong>.</li>
+            <li>Selecione a imagem do seu dispositivo.</li>
+            <li>Confira a pré-visualização.</li>
+            <li>Clique em <strong>"Baixar PDF"</strong>.</li>
+        </ol>
 
-    <h3 style="color: #333; margin-top: 20px;">Por que usar nosso conversor?</h3>
-    <ul style="line-height: 1.6; color: #666; margin-left: 20px;">
-        <li><strong>Privacidade Total:</strong> A conversão é feita no seu navegador. Seus arquivos não são enviados para nenhum servidor.</li>
-        <li><strong>Rápido e Leve:</strong> Não precisa instalar programas pesados.</li>
-        <li><strong>Compatível com Celular:</strong> Funciona perfeitamente no Android e iPhone.</li>
-    </ul>
+        <h3>Por que usar nosso conversor?</h3>
+        <ul class="lista-beneficios">
+            <li><strong>Privacidade Total:</strong> Tudo é feito no seu navegador.</li>
+            <li><strong>Rápido e Leve:</strong> Sem instalações.</li>
+            <li><strong>Mobile Friendly:</strong> Funciona no celular.</li>
+        </ul>
+    </section>
     
-
-</section>
-    
-    <input type="file" id="input-arquivo" accept="image/*">
-    <br>
+    <div class="controles">
+        <label for="input-arquivo" class="botao-upload">📁 Escolher Arquivo</label>
+        <input type="file" id="input-arquivo" accept="image/*">
+    </div>
 
     <div id="conteudo-pdf"> 
-        <p id="texto-instrucao">
-            Selecione uma imagem para ver a prévia aqui...
-        </p>
-        <img id="imagem-preview">
+        <p id="texto-instrucao">A prévia da sua imagem aparecerá aqui...</p>
+        <img id="imagem-preview" alt="Prévia da imagem">
     </div>
 
     <button id="botao_converter">Baixar PDF</button>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    
-    <script src="script.js" defer> </script>
+    <script src="script.js" defer></script>
 
-    <footer style="margin-top: 40px; font-size: 12px; color: #999; text-align: center; border-top: 1px solid #eee; padding-top: 20px;">
-        &copy; 2024 Conversor PDF Online - Todos os direitos reservados.
+    <footer>
+        &copy; 2025 Conversor PDF Online - Todos os direitos reservados.
     </footer>
 </body>
 </html>
