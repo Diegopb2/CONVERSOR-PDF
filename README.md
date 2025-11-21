@@ -9,7 +9,6 @@ Uma ferramenta web simples, rápida e segura para converter imagens (JPG, PNG) e
 🔗 **Acesse o projeto online:** [Clique aqui para testar](https://diegopb2.github.io/pdf-facil/)
 
 ## 🚀 Funcionalidades
-
 * **Conversão Instantânea:** Transforma imagens em PDF sem recarregar a página.
 * **Privacidade Total:** O processamento é feito 100% no navegador. Suas imagens **não** são enviadas para nenhum servidor externo.
 * **Pré-visualização Real:** Simula uma folha A4 na tela para você ver exatamente como ficará.
