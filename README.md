@@ -28,5 +28,6 @@ Uma ferramenta web simples, rápida e segura para converter imagens (JPG, PNG) e
 Se quiser baixar o código para estudar ou modificar:
 
 1. Clone o repositório:
-   ```bash
-git clone https://github.com/Diegopb2/pdf-facil.git
+   ```bash 
+   git clone https://github.com/Diegopb2/pdf-facil.
+   ```
